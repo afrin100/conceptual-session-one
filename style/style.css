@@ -8,6 +8,7 @@
     padding: 30px;
     align-items: center;
     justify-content: space-around;
+    
 
 }
 .logo-pic{
@@ -28,4 +29,67 @@
 }
 .menu:hover{
     color: gray;
+}
+/* banner */
+.banner-pic{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../images/background.png'),
+    linear-gradient(45deg,rgb(8, 8, 8),#272626);
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.button:hover{
+    background-color: orange;
+}
+/* about */
+.about-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-photo img{
+    width: 200px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-btn{
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.about h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
 }
